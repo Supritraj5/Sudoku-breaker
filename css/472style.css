@@ -1,0 +1,20 @@
+.content{
+    display: grid;
+    grid-template-columns: repeat(9,40px);
+    grid-template-rows: repeat(9,40px);
+    margin: 20px auto;
+    justify-content: center;
+}
+input{
+    outline: none;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    font-size: 20px;
+    background-color: #aabdc9;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    border: 1px solid black;
+}
